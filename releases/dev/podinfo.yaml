@@ -19,4 +19,7 @@ spec:
       tag: dev-hdtwcel9
     replicaCount: 1
     hpa:
-      enabled: false
+      enabled: true
+      maxReplicas: 10
+      cpu: 10
+      memory: 30Mi

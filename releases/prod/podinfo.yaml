@@ -18,3 +18,8 @@ spec:
       repository: stefanprodan/podinfo
       tag: 0.4.11
     replicaCount: 3
+    hpa:
+      enabled: true
+      maxReplicas: 10
+      cpu: 10
+      memory: 30Mi
