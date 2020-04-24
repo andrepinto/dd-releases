@@ -17,7 +17,7 @@ spec:
     image:
       repository: stefanprodan/podinfo
       tag: 0.4.11
-    replicaCount: 3
+    replicaCount: 1
     hpa:
       enabled: true
       maxReplicas: 10
