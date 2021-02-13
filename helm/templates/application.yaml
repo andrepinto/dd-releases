@@ -14,7 +14,7 @@ spec:
     path: helm
     helm:
       version: v3
-    repoURL: https://github.com/andrepinto/dd-chartss
+    repoURL: https://github.com/andrepinto/dd-charts
     targetRevision: master
   syncPolicy:
     automated:
