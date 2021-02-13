@@ -15,7 +15,7 @@ spec:
     helm:
       version: v3
     repoURL: https://github.com/andrepinto/dd-chartss
-    targetRevision: HEAD
+    targetRevision: master
   syncPolicy:
     automated:
       selfHeal: true
